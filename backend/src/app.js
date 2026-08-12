@@ -6,7 +6,7 @@ const PORTA = 3000;
 
 app.use(express.json());
 
-app.use("api/produtos", produtoRoutes);
+app.use("/api/produtos", produtoRoutes);
 
 app.listen(PORTA, ()=> {
     console.log(`Servidor executando http://localhost:${PORTA}`);
