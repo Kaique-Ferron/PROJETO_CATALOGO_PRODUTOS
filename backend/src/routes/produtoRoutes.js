@@ -8,7 +8,7 @@ const {
  const router = express.Router();
 
  router.get ("/", listarProdutos);
-  router.get ("/", cadastrarProduto);
+  router.post ("/", cadastrarProduto);
 
 
   module.express = router ;
